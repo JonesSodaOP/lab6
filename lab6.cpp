@@ -9,12 +9,12 @@ string pet; // Either "cat" or "dog"
 char spayed; // 'y' if the pet has been spayed/neutered, otherwise 'n'
 // Ask the user to enter the type of pet (as a string) and then read the
 // input storing it in variable 'pet'.
-cout << "Enter the pet type (cat or dog): ";
+cout << "Enter the pet type (cat or dog): " << endl;
 cin >> pet;
   if (pet == "cat" || pet == "dog") { // Added this code to make sure only these pets are prompted for being spayed or nuetered.
 // Ask the user if the pet has been spayed or neutered and store the input in
 // variable 'spayed'.
-cout << "Has the pet been spayed or neutered (y/n)? ";
+cout << "Has the pet been spayed or neutered (y/n)? " << endl;
 cin >> spayed;
   } else {
   cout << "Only cats and dogs need pet tags. " << endl; } // Modified the code to display the message for when anything other than a cat or dog is enetered to not prompt the spay or nueter messsage.
